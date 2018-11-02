@@ -2,3 +2,5 @@
   href: index.md
 - name: SampleInclude
   href: docs/SampleIncludes.md
+- name: SampleIncludeLocalized
+  href: docs/SampleIncludesJP.md
