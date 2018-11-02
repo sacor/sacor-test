@@ -1,7 +1,1 @@
-# This is an Include file
-
-## Here starts the content
-
-Test content
-
-END OF FILE
+CONTENT FROM INCLUDE FILE
