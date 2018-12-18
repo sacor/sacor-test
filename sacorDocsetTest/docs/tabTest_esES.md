@@ -20,8 +20,6 @@ En esta guía de inicio rápido, aprenderá a usar PHP para cargar, descargar y 
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-[!INCLUDE [storage-quickstart-prereq-include](../../../includes/storage-quickstart-prereq-include.md)]
-
 Asegúrese de tener instalados los siguientes requisitos previos adicionales:
 
 * [PHP](http://php.net/downloads.php)
@@ -38,7 +36,6 @@ git clone https://github.com/Azure-Samples/storage-blobs-php-quickstart.git
 
 Este comando clona el repositorio en la carpeta git local. Para abrir la aplicación de ejemplo PHP, busque la carpeta storage-blobs-ruby-quickstart y abra el archivo example.rb.  
 
-[!INCLUDE [storage-copy-account-key-portal](../../../includes/storage-copy-account-key-portal.md)]
 
 ## <a name="configure-your-storage-connection-string"></a>Configuración de la cadena de conexión de almacenamiento.
 En la aplicación, debe proporcionar el nombre y la clave de la cuenta de almacenamiento para crear la instancia **BlobRestProxy** de la aplicación. Se recomienda almacenar estos identificadores dentro de una variable de entorno en la máquina local que ejecuta la aplicación. Utilice uno de los estos ejemplos dependiendo de su sistema operativo para crear la variable de entorno. Reemplace los valores **youraccountname** y **youraccountkey** con el nombre de cuenta y la clave.
