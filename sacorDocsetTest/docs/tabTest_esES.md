@@ -40,14 +40,14 @@ Este comando clona el repositorio en la carpeta git local. Para abrir la aplicac
 ## <a name="configure-your-storage-connection-string"></a>Configuración de la cadena de conexión de almacenamiento.
 En la aplicación, debe proporcionar el nombre y la clave de la cuenta de almacenamiento para crear la instancia **BlobRestProxy** de la aplicación. Se recomienda almacenar estos identificadores dentro de una variable de entorno en la máquina local que ejecuta la aplicación. Utilice uno de los estos ejemplos dependiendo de su sistema operativo para crear la variable de entorno. Reemplace los valores **youraccountname** y **youraccountkey** con el nombre de cuenta y la clave.
 
-# [Linux](#tab/linux)
+# [Linux] (#tab/linux)
 
 ```bash
 export ACCOUNT_NAME=<youraccountname>
 export ACCOUNT_KEY=<youraccountkey>
 ```
 
-# [Windows](#tab/windows)
+# [Windows] (#tab/windows)
 
 ```cmd
 setx ACCOUNT_NAME=<youraccountname>
