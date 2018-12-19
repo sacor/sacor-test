@@ -41,7 +41,7 @@
       "feedback_system": "None"
     },
     "fileMetadata": {},
-    "template": [],
+    "template": "docs.html",
     "dest": "sacorDocsetTest",
     "markdownEngineName": "dfm-latest"
   }
