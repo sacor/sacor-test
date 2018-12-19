@@ -42,7 +42,6 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "sacorDocsetTest",
-    "markdownEngineName": "markdig"
+    "dest": "sacorDocsetTest"
   }
 }
