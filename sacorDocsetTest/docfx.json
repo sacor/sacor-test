@@ -42,6 +42,7 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "sacorDocsetTest"
+    "dest": "sacorDocsetTest",
+    "markdownEngineName": "dfm-latest"
   }
 }
