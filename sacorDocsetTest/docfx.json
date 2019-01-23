@@ -43,6 +43,6 @@
     "fileMetadata": {},
     "template": "docs.html",
     "dest": "sacorDocsetTest",
-    "markdownEngineName": "markdig"
+    "markdownEngineName": "dfm-latest"
   }
 }
