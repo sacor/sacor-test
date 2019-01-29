@@ -19,11 +19,11 @@ ms.lasthandoff: 10/02/2018
 ms.locfileid: "48134175"
 ---
 # <a name="configure-reporting-services-to-use-a-subject-alternative-name"></a><span data-ttu-id="cd75b-102">Configuración de Reporting Services para utilizar un nombre alternativo del asunto</span><span class="sxs-lookup"><span data-stu-id="cd75b-102">Configure Reporting Services to Use a Subject Alternative Name</span></span>
-  <span data-ttu-id="cd75b-103">En este tema se explica cómo configurar [!INCLUDE[ssRSnoversion](../includes/ssrsnoversion-md.md)] (SSRS) para usar un nombre alternativo del asunto (SAN) modificando el archivo rsreportserver.config y usando la herramienta Netsh.exe.</span><span class="sxs-lookup"><span data-stu-id="cd75b-103">This topic explains how to configure [!INCLUDE[ssRSnoversion](../includes/ssrsnoversion-md.md)] (SSRS) to use a subject alternative name (SAN) by modifying the rsreportserver.config file and using the Netsh.exe tool.</span></span>  
+  <span data-ttu-id="cd75b-103">En este tema se explica cómo configurar [!INCLUDE[ssRSnoversion](./includes/ssrsnoversion-md.md)] (SSRS) para usar un nombre alternativo del asunto (SAN) modificando el archivo rsreportserver.config y usando la herramienta Netsh.exe.</span><span class="sxs-lookup"><span data-stu-id="cd75b-103">This topic explains how to configure [!INCLUDE[ssRSnoversion](./includes/ssrsnoversion-md.md)] (SSRS) to use a subject alternative name (SAN) by modifying the rsreportserver.config file and using the Netsh.exe tool.</span></span>  
   
 ||  
 |-|  
-|<span data-ttu-id="cd75b-104">**[!INCLUDE[applies](../includes/applies-md.md)]**  [!INCLUDE[ssRSnoversion](../includes/ssrsnoversion-md.md)] </span><span class="sxs-lookup"><span data-stu-id="cd75b-104">**[!INCLUDE[applies](../includes/applies-md.md)]**  [!INCLUDE[ssRSnoversion](../includes/ssrsnoversion-md.md)] Native mode</span></span>|  
+|<span data-ttu-id="cd75b-104">**[!INCLUDE[applies](../includes/applies-md.md)]**  [!INCLUDE[ssRSnoversion](./includes/ssrsnoversion-md.md)] </span><span class="sxs-lookup"><span data-stu-id="cd75b-104">**[!INCLUDE[applies](./includes/applies-md.md)]**  [!INCLUDE[ssRSnoversion](./includes/ssrsnoversion-md.md)] Native mode</span></span>|  
   
  <span data-ttu-id="cd75b-105">Las instrucciones son válidas para la dirección URL del servicio de generación de informes y para la dirección URL del servicio web.</span><span class="sxs-lookup"><span data-stu-id="cd75b-105">The instructions apply to the Reporting Service URL as well as a Web Service URL.</span></span>  
   
