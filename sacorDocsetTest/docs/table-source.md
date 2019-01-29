@@ -1,9 +1,7 @@
- As you can see, most of the space is used by precreated data and delta files. SQL Server pre-created one pair of (data, delta) files per logical processor. In addition, data files are pre-sized at 128MB, and delta files at 8MB, in order to make inserting data into these files more efficient.  
+#### Initial state  
+ When the sample filegroup and sample memory-optimized tables are created initially, a number of checkpoint files are pre-created and the system starts filling the files - the number of checkpoint files pre-created depends on the number of logical processors in the system. As the sample is initially very small, the pre-created files will be mostly empty after initial create.  
   
- The actual data in the memory-optimized tables is in the single data file.  
-  
-#### After running the workload  
- After a single test run that inserts 10 million sales orders, the overall on-disk size looks something like this (for a 16-core test server):  
+ The following shows the initial on-disk size for the sample on a machine with 16 logical processors:  
   
 ```  
 SELECT SUM(df.size) * 8 / 1024 AS [On-disk size in MB]  
@@ -15,8 +13,8 @@ WHERE f.type=N'FX'
 ||  
 |-|  
 |**On-disk size in MB**|  
-|8828|  
+|2312|  
   
- The on-disk size is close to 9GB, which comes close to the in-memory size of the data.  
+ As you can see, there is a big discrepancy between the on-disk size of the checkpoint files, which is 2.3GB, and the actual data size, which is closer to 30MB.  
   
- Looking more closely at the sizes of the checkpoint files across the various states:  
+ Looking closer at where the disk-space utilization comes from, you can use the following query. The size on disk returned by this query is approximate for files with state in 5 (REQUIRED FOR BACKUP/HA), 6 (IN TRANSITION TO TOMBSTONE), or 7 (TOMBSTONE).  
