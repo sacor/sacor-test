@@ -6,7 +6,7 @@
       "build_output_subfolder": "sacorDocsetTest",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": ["test","test2"],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
