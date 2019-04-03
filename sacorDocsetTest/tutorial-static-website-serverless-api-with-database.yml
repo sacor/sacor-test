@@ -31,3 +31,4 @@ items:
   durationInMinutes: 15
   content: >
     [!INCLUDE [](includes/authentication.md)]
+- content: '[!INCLUDE [](includes/completed.md)]'
