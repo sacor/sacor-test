@@ -4,7 +4,8 @@
       {
         "files": [
           "**/*.md",
-          "**/*.yml"
+          "**/*.yml",
+          "test"
         ],
         "exclude": [
           "**/obj/**",
@@ -22,7 +23,8 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "test"
         ],
         "exclude": [
           "**/obj/**",
@@ -38,11 +40,13 @@
       "breadcrumb_path": "/sacorDocsetTest/breadcrumb/toc.json",
       "bilingual_type": "hover over",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "test": "test"
     },
     "fileMetadata": {},
     "template": "docs.html",
     "dest": "sacorDocsetTest",
-    "markdownEngineName": "markdig"
+    "markdownEngineName": "markdig",
+    "test": "test"
   }
 }

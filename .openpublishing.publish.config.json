@@ -4,6 +4,7 @@
       "docset_name": "sacorDocsetTest",
       "build_source_folder": "sacorDocsetTest",
       "build_output_subfolder": "sacorDocsetTest",
+      "test": "test",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
@@ -11,7 +12,8 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "Test": "test"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -28,6 +30,12 @@
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "test",
+      "url": "",
+      "branch": "",
       "branch_mapping": {}
     }
   ],
