@@ -1988,7 +1988,7 @@ class MyCustomNSObject : MyNSObject
 
 <a name="MT4144" />
 
-### <a name="mt4144-cannot-register-the-method--since-it-does-not-have-an-associated-trampoline-please-file-a-bug-report-at-httpbugzillaxamarincom"></a><span data-ttu-id="c22ab-908">MT4144:無法將方法註冊 ' \*' 因為沒有相關聯的 trampoline。</span><span class="sxs-lookup"><span data-stu-id="c22ab-908">MT4144: Cannot register the method '\*' since it does not have an associated trampoline.</span></span> <span data-ttu-id="c22ab-909">請提出錯誤報告在 http://bugzilla.xamarin.com。</span><span class="sxs-lookup"><span data-stu-id="c22ab-909">Please file a bug report at http://bugzilla.xamarin.com.</span></span>
+### <a name="mt4144-cannot-register-the-method--since-it-does-not-have-an-associated-trampoline-please-file-a-bug-report-at-httpbugzillaxamarincom"></a><span data-ttu-id="c22ab-908">MT4144:無法將方法註冊 ' \*' 因為沒有相關聯的 trampoline。</span><span class="sxs-lookup"><span data-stu-id="c22ab-908">MT4144: Cannot register the method '\*' since it does not have an associated trampoline.</span></span> <span data-ttu-id="c22ab-909">請提出錯誤報告在 http://bugzilla.xamarin.com 。</span><span class="sxs-lookup"><span data-stu-id="c22ab-909">Please file a bug report at http://bugzilla.xamarin.com.</span></span>
 
 <span data-ttu-id="c22ab-910">這表示在 Xamarin.iOS 中的 bug。</span><span class="sxs-lookup"><span data-stu-id="c22ab-910">This indicates a bug in Xamarin.iOS.</span></span> <span data-ttu-id="c22ab-911">請將 bug 歸檔在 [http://bugzilla.xamarin.com](https://bugzilla.xamarin.com/enter_bug.cgi?product=iOS)。</span><span class="sxs-lookup"><span data-stu-id="c22ab-911">Please file a bug at [http://bugzilla.xamarin.com](https://bugzilla.xamarin.com/enter_bug.cgi?product=iOS).</span></span>
 
