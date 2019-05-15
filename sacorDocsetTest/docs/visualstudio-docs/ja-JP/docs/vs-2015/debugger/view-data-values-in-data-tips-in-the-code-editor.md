@@ -23,11 +23,11 @@ ms.author: mikejo
 manager: jillfra
 ---
 # <a name="view-data-values-in-data-tips--in-the-code-editor"></a>コード エディターでのデータ ヒントのデータ値の表示
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 DataTips は、デバッグ中にプログラムの変数に関する情報を確認するときに便利です。 データヒントは、中断モードのときにのみ機能します。また、実行の現在のスコープ内にある変数に対してだけ使用できます。  
   
- [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)]、データヒントがソース ファイルで特定の場所にピン留めできますまたはすべてに加えて、変動する[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]windows。  
+ windows。  
   
 ### <a name="to-display-a-datatip-in-break-mode-only"></a>データヒントを表示するには (中断モードのみ)  
   

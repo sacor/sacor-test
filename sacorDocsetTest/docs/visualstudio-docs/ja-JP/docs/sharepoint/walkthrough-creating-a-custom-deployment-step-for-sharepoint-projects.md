@@ -61,7 +61,7 @@ ms.workload:
 
 #### <a name="to-create-the-vsix-project"></a>VSIX プロジェクトを作成するには
 
-1. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] を起動します。
+1.  を起動します。
 
 2. メニュー バーで、 **[ファイル]**  >  **[新規作成]**  >  **[プロジェクト]** を選択します。
 
@@ -74,7 +74,7 @@ ms.workload:
 
 5. 選択、 **VSIX プロジェクト**名では、プロジェクト テンプレートは、 **UpgradeDeploymentStep**、選択し、 **OK**ボタン。
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 追加、 **UpgradeDeploymentStep**プロジェクトを**ソリューション エクスプ ローラー**します。
+      追加、 **UpgradeDeploymentStep**プロジェクトを**ソリューション エクスプ ローラー**します。
 
 #### <a name="to-create-the-extension-project"></a>拡張機能プロジェクトを作成するには
 
@@ -86,7 +86,7 @@ ms.workload:
 
 4. 選択、**クラス ライブラリ**プロジェクト テンプレート、プロジェクトの名前**DeploymentStepExtension**、選択し、 **OK**ボタン。
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 追加、 **DeploymentStepExtension**プロジェクトがソリューションにし、既定の Class1 コード ファイルを開きます。
+      追加、 **DeploymentStepExtension**プロジェクトがソリューションにし、既定の Class1 コード ファイルを開きます。
 
 5. Class1 コード ファイルをプロジェクトから削除します。
 
@@ -247,7 +247,7 @@ ms.workload:
 
 3. ダイアログ ボックスの上部にあることを確認します **.NET Framework 3.5** .NET Framework のバージョンの一覧に表示されます。
 
-    プロジェクトには[!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)]と[!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)]このバージョンの .NET Framework が必要です。
+    プロジェクトにはこのバージョンの .NET Framework が必要です。
 
 4. プロジェクト テンプレートの一覧で選択**SharePoint 2010 プロジェクト**、プロジェクトに名前を**EmployeesListDefinition**、選択し、 **OK**ボタン。
 
@@ -260,7 +260,7 @@ ms.workload:
 
 7. 選択、**完了**ボタンをクリックします。
 
-    [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] EmployeesListDefinition プロジェクトを作成します。
+     EmployeesListDefinition プロジェクトを作成します。
 
 8. EmployeesListDefinition プロジェクトのショートカット メニューを開き、選択**追加**を選び、**新しい項目の**します。
 
@@ -278,7 +278,7 @@ ms.workload:
 
     3. **既定 (空白)** で選択された、**に基づくカスタマイズ可能なリストを作成する:** リスト。
 
-       [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] タイトル列と 1 つの空のインスタンスで、従業員リスト項目を作成し、リスト デザイナーを開きます。
+        タイトル列と 1 つの空のインスタンスで、従業員リスト項目を作成し、リスト デザイナーを開きます。
 
 12. リストのデザイナーでの**列** タブで、選択、**新規または既存の列名を入力**行、および次の列を追加し、**列の表示名**一覧。
 

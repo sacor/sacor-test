@@ -47,7 +47,7 @@ dev_langs:
 8. 在**配置**列中，确认**SimpleMath**行设置为**版本**，然后选择**关闭**按钮以接受更改。
 
    > [!IMPORTANT]
-   > SDK for SimpleMath 组件包括只有一个配置。 此配置中必须是发布版本，或使用该组件的应用程序不会通过认证[!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)]。
+   > SDK for SimpleMath 组件包括只有一个配置。 此配置中必须是发布版本，或使用该组件的应用程序不会通过认证。
 
 9. 在中**解决方案资源管理器**，打开快捷菜单**SimpleMath**项目节点，然后选择**生成**。
 

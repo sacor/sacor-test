@@ -61,7 +61,7 @@ ms.workload:
 
 #### <a name="to-create-the-vsix-project"></a>若要建立 VSIX 專案
 
-1. 啟動 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]。
+1. 啟動 。
 
 2. 在功能表列上，選擇 [檔案] ****  > [新增] ****  > [專案] **** 。
 
@@ -74,7 +74,7 @@ ms.workload:
 
 5. 選擇**VSIX 專案**範本，將專案命名為**UpgradeDeploymentStep**，然後選擇**確定** 按鈕。
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 新增**UpgradeDeploymentStep**專案加入**方案總管 中**。
+      新增**UpgradeDeploymentStep**專案加入**方案總管 中**。
 
 #### <a name="to-create-the-extension-project"></a>若要建立擴充功能專案
 
@@ -86,7 +86,7 @@ ms.workload:
 
 4. 選擇**類別庫**專案範本，請將專案命名**DeploymentStepExtension**，然後選擇**確定** 按鈕。
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 新增**DeploymentStepExtension**專案加入方案，並開啟預設 Class1 的程式碼檔案。
+      新增**DeploymentStepExtension**專案加入方案，並開啟預設 Class1 的程式碼檔案。
 
 5. 從專案刪除 Class1 的程式碼檔案。
 
@@ -247,7 +247,7 @@ ms.workload:
 
 3. 在對話方塊頂端，確定 **.NET Framework 3.5**會出現在.NET Framework 版本的清單。
 
-    專案[!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)]和[!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)]需要這個版本的.NET Framework。
+    專案需要這個版本的.NET Framework。
 
 4. 在專案範本清單中，選擇**SharePoint 2010 專案**，將專案命名**EmployeesListDefinition**，然後選擇**確定**  按鈕。
 
@@ -260,7 +260,7 @@ ms.workload:
 
 7. 選擇**完成** 按鈕。
 
-    [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 建立 EmployeesListDefinition 專案。
+     建立 EmployeesListDefinition 專案。
 
 8. 開啟 EmployeesListDefinition 專案的捷徑功能表，選擇 **新增**，然後選擇**新項目**。
 
@@ -278,7 +278,7 @@ ms.workload:
 
     3. **預設值 （空白）** 中選擇**建立可自訂的清單為基礎：** 清單。
 
-       [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 建立員工清單項目具有標題資料行和單一的空執行個體，並開啟清單設計工具。
+        建立員工清單項目具有標題資料行和單一的空執行個體，並開啟清單設計工具。
 
 12. 在清單設計工具中上,**資料行**索引標籤上，選擇**新的或現有的資料行名稱**資料列，，，然後加入下列中的資料行**資料行的顯示名稱**清單：
 

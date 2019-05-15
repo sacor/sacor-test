@@ -117,8 +117,8 @@ ms.workload:
 
  Office Pia のイベント インターフェイスの詳細については、次を参照してください。 [Office プライマリ相互運用機能アセンブリのクラスおよびインターフェイスの概要](/previous-versions/office/office-12//ms247299(v=office.12))します。
 
-### <a name="cannot-reference-office-pia-classes-in-projects-that-target-the-includenetv40shortsharepointincludesnet-v40-short-mdmd-or-the-includenetv45vstoincludesnet-v45-mdmd"></a>できません Office PIA のリファレンス内のクラス プロジェクトを対象とする、[!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]または [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]
- [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] または [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] を対象とするプロジェクトでは、Office PIA で定義されているクラスを参照するコードは、既定ではコンパイルされません。 Pia のクラスは、名前付け規則を使用して*objectname*クラスなど、<xref:Microsoft.Office.Interop.Word.DocumentClass>と<xref:Microsoft.Office.Interop.Excel.WorkbookClass>します。 たとえば、Word の VSTO アドイン プロジェクトの次のコードはコンパイルされません。
+### <a name="cannot-reference-office-pia-classes-in-projects-that-target-the-includenetv40shortsharepointincludesnet-v40-short-mdmd-or-the-includenetv45vstoincludesnet-v45-mdmd"></a>できません Office PIA のリファレンス内のクラス プロジェクトを対象とする、
+  を対象とするプロジェクトでは、Office PIA で定義されているクラスを参照するコードは、既定ではコンパイルされません。 Pia のクラスは、名前付け規則を使用して*objectname*クラスなど、<xref:Microsoft.Office.Interop.Word.DocumentClass>と<xref:Microsoft.Office.Interop.Excel.WorkbookClass>します。 たとえば、Word の VSTO アドイン プロジェクトの次のコードはコンパイルされません。
 
 ```vb
 Dim document As Word.DocumentClass = Globals.ThisAddIn.Application.ActiveDocument
@@ -144,7 +144,7 @@ Dim document As Word.Document = Globals.ThisAddIn.Application.ActiveDocument
 Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
 ```
 
- [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] または [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] を対象とするプロジェクトは、既定で自動的に Office PIA のすべての相互運用機能型を埋め込みます。 このコンパイル エラーは、埋め込まれた相互運用機能型の機能は、クラスでなくインターフェイスでのみ機能するために発生します。 Office Pia のインターフェイスとクラスの詳細については、次を参照してください。 [Office プライマリ相互運用機能アセンブリのクラスおよびインターフェイスの概要](http://go.microsoft.com/fwlink/?LinkId=189592)します。 Office プロジェクトで埋め込まれた相互運用機能型の機能の詳細については、次を参照してください。[デザイン Office ソリューションの作成と](../vsto/designing-and-creating-office-solutions.md)します。
+ (../vsto/designing-and-creating-office-solutions.md)します。
 
 ### <a name="references-to-office-classes-are-not-recognized"></a>Office クラスへの参照は認識されません。
  など、複数の名前空間の例では、アプリケーションの一部のクラス名<xref:Microsoft.Office.Interop.Word>と<xref:System.Windows.Forms>します。 このため、 **Imports**/**を使用して**プロジェクト テンプレートの上部にあるステートメントには、修飾定数などの短縮形が含まれています。

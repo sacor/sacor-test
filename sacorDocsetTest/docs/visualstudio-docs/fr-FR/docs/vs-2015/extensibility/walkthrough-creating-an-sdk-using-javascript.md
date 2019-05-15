@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>Procédure pas à pas : Création d’un Kit de développement logiciel (SDK) à l’aide de JavaScript
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 Cette procédure pas à pas explique comment utiliser JavaScript pour créer un simple mathématiques SDK comme une Extension Visual Studio (VSIX).  La procédure pas à pas est divisée en différentes parties :  
   

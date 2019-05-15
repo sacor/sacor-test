@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>Przewodnik: Tworzenie zestawu SDK przy użyciu języka JavaScript
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 W tym przewodniku pokazano, jak utworzyć proste matematyczne SDK jako programu Visual Studio rozszerzenia (VSIX) za pomocą języka JavaScript.  Instruktażu jest podzielony na te części:  
   

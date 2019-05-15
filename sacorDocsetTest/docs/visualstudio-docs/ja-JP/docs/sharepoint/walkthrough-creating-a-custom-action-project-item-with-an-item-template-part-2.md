@@ -60,7 +60,7 @@ ms.workload:
 
 5. 選択、 **WPF ユーザー コントロール ライブラリ**プロジェクト テンプレート、プロジェクトの名前**ItemTemplateWizard**、選択し、 **OK**ボタン。
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 追加、 **ItemTemplateWizard**プロジェクトがソリューションにします。
+      追加、 **ItemTemplateWizard**プロジェクトがソリューションにします。
 
 6. プロジェクトから UserControl1 の項目を削除します。
 

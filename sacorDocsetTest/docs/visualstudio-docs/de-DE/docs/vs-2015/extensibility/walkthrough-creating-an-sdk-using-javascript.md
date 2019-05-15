@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>Exemplarische Vorgehensweise: Erstellen eines SDK mit JavaScript
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 In dieser exemplarischen Vorgehensweise erläutert, wie Sie JavaScript verwenden, um eine einfache mathematische SDK als ein Visual Studio-Erweiterung (VSIX) zu erstellen.  Die exemplarische Vorgehensweise ist in folgende Teile gegliedert:  
   

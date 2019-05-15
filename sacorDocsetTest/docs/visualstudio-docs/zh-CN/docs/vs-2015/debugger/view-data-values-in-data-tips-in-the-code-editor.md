@@ -23,11 +23,11 @@ ms.author: mikejo
 manager: jillfra
 ---
 # <a name="view-data-values-in-data-tips--in-the-code-editor"></a>在代码编辑器中查看数据提示中的数据值
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 使用数据提示功能，可以在调试期间方便地查看程序中变量的有关信息。 数据提示功能只能在中断模式下可用，并且只对当前执行范围内的变量有效。  
   
- 在中[!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)]、 数据提示可以固定到源文件中的特定位置或也可以浮动在所有之上[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]windows。  
+ 在中windows。  
   
 ### <a name="to-display-a-datatip-in-break-mode-only"></a>显示数据提示（只在中断模式下）  
   

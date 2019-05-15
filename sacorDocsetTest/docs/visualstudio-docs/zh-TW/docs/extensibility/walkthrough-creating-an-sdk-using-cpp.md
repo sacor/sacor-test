@@ -163,7 +163,7 @@ ms.workload:
 
      正確的結果會出現。
 
-    本逐步解說示範如何建立和使用擴充功能 SDK，來呼叫[!INCLUDE[wrt](../extensibility/includes/wrt_md.md)]程式庫和非[!INCLUDE[wrt](../extensibility/includes/wrt_md.md)]程式庫。
+    本逐步解說示範如何建立和使用擴充功能 SDK，來呼叫程式庫。
 
 ## <a name="next-steps"></a>後續步驟
 

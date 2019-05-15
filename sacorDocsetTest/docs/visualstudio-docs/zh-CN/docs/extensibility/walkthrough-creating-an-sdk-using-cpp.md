@@ -163,7 +163,7 @@ ms.workload:
 
      将显示正确的结果。
 
-    本演练演示了如何创建和使用扩展 SDK 来调入[!INCLUDE[wrt](../extensibility/includes/wrt_md.md)]库和非[!INCLUDE[wrt](../extensibility/includes/wrt_md.md)]库。
+    本演练演示了如何创建和使用扩展 SDK 来调入库。
 
 ## <a name="next-steps"></a>后续步骤
 

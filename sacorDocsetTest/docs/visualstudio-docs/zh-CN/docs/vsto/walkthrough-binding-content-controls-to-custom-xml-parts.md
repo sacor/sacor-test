@@ -21,7 +21,7 @@ ms.workload:
 # <a name="walkthrough-bind-content-controls-to-custom-xml-parts"></a>演练：将内容控件绑定到自定义 XML 部件
   本演练演示如何将对 Word 的文档级自定义项中的内容控件绑定到存储在文档中的 XML 数据。
 
- [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]
+ 
 
  Word 可以存储 XML 数据，名为*自定义 XML 部件*，在文档中。 可以通过将内容控件绑定到自定义 XML 部件中的元素来控制此数据的显示。 本演练中的示例文档显示了存储在自定义 XML 部件中的员工信息。 打开文档时，内容控件将显示 XML 元素的值。 对内容控件中的文本所进行的任何更改都将保存在自定义 XML 部件中。
 
@@ -39,12 +39,12 @@ ms.workload:
 
 - 将 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> 绑定到 XML 架构中定义的值集。
 
-  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
+  
 
 ## <a name="prerequisites"></a>系统必备
  你需要以下组件来完成本演练：
 
-- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- 
 
 - Microsoft Word。
 
@@ -55,14 +55,14 @@ ms.workload:
 
 1. 具有名称创建一个 Word 文档项目**为 employeecontrols**。 创建解决方案的新文档。 有关详细信息，请参阅[如何：在 Visual Studio 中创建 Office 项目](../vsto/how-to-create-office-projects-in-visual-studio.md)。
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 在设计器中打开新的 Word 文档并将添加**为 employeecontrols**投影到**解决方案资源管理器**。
+      在设计器中打开新的 Word 文档并将添加**为 employeecontrols**投影到**解决方案资源管理器**。
 
 ## <a name="add-content-controls-to-the-document"></a>向文档添加内容控件
  创建一个包含三种不同类型的内容控件的表格，其中用户可以查看或编辑有关员工的信息。
 
 ### <a name="to-add-content-controls-to-the-document"></a>若要将内容控件添加到文档
 
-1. 在 Word 文档中承载[!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]设计器中的，在功能区中，选择**插入**选项卡。
+1. 在 Word 文档中承载设计器中的，在功能区中，选择**插入**选项卡。
 
 2. 在中**表**组中，选择**表**，并插入包含 2 列和 3 行的表。
 
@@ -180,7 +180,7 @@ ms.workload:
 ## <a name="attach-the-xml-schema-to-the-document"></a>将 XML 架构附加到文档
  必须将 XML 架构附加到文档以将 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> 绑定到 `title` 元素的有效值。
 
-### <a name="to-attach-the-xml-schema-to-the-document--includeword15shortvstoincludesword-15-short-mdmd"></a>若要将 XML 架构附加到文档 ( [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)])
+### <a name="to-attach-the-xml-schema-to-the-document--includeword15shortvstoincludesword-15-short-mdmd"></a>若要将 XML 架构附加到文档 ( )
 
 1. 激活**EmployeeControls.docx**在设计器中。
 

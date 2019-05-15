@@ -60,7 +60,7 @@ ms.workload:
 
 5. 選擇**WPF 使用者控制項程式庫**專案範本，請將專案命名**ItemTemplateWizard**，然後選擇**確定** 按鈕。
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 新增**ItemTemplateWizard**專案加入方案。
+      新增**ItemTemplateWizard**專案加入方案。
 
 6. 從專案刪除 UserControl1 項目。
 

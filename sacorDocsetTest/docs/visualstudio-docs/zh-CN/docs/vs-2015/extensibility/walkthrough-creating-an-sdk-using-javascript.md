@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>演练：使用 JavaScript 创建 SDK
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 本演练介绍了如何使用 JavaScript 创建简单的数学运算 SDK 作为 Visual Studio 扩展 (VSIX)。  本演练分为以下部分：  
   

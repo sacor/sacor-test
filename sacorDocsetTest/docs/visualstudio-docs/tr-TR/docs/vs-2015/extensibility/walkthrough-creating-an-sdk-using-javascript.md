@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>İzlenecek yol: JavaScript Kullanarak SDK Oluşturma
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 Bu izlenecek yol, bir basit matematik SDK'sı bir Visual Studio Uzantısı (VSIX) olarak oluşturmak için JavaScript kullanmayı öğretir.  İzlenecek yol, şu bölümlere ayrılmıştır:  
   

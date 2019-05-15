@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>연습: JavaScript를 사용하여 SDK 만들기
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 이 연습에서는 JavaScript는 간단한 수학 SDK는 Visual Studio 확장 (VSIX)로 만들기를 사용 하는 방법을 설명 합니다.  이 연습에서는 이러한 부분으로 구분 됩니다.  
   

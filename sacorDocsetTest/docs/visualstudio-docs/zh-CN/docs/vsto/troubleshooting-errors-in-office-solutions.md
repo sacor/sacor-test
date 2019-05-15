@@ -117,8 +117,8 @@ ms.workload:
 
  有关 Office Pia 中的事件接口的详细信息，请参阅[概述中 Office 主互操作程序集类和接口](/previous-versions/office/office-12//ms247299(v=office.12))。
 
-### <a name="cannot-reference-office-pia-classes-in-projects-that-target-the-includenetv40shortsharepointincludesnet-v40-short-mdmd-or-the-includenetv45vstoincludesnet-v45-mdmd"></a>不能引用 Office PIA 中的类的项目面向[!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]或 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]
- 在面向 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 或 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] 的项目中，默认情况下 Office PIA 中定义的类的代码不进行编译。 Pia 中的类使用命名约定*objectname*类，如<xref:Microsoft.Office.Interop.Word.DocumentClass>和<xref:Microsoft.Office.Interop.Excel.WorkbookClass>。 例如，Word VSTO 外接程序项目中的以下代码将不进行编译。
+### <a name="cannot-reference-office-pia-classes-in-projects-that-target-the-includenetv40shortsharepointincludesnet-v40-short-mdmd-or-the-includenetv45vstoincludesnet-v45-mdmd"></a>不能引用 Office PIA 中的类的项目面向
+ 在面向  的项目中，默认情况下 Office PIA 中定义的类的代码不进行编译。 Pia 中的类使用命名约定*objectname*类，如<xref:Microsoft.Office.Interop.Word.DocumentClass>和<xref:Microsoft.Office.Interop.Excel.WorkbookClass>。 例如，Word VSTO 外接程序项目中的以下代码将不进行编译。
 
 ```vb
 Dim document As Word.DocumentClass = Globals.ThisAddIn.Application.ActiveDocument
@@ -144,7 +144,7 @@ Dim document As Word.Document = Globals.ThisAddIn.Application.ActiveDocument
 Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
 ```
 
- 默认情况下，面向 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 或 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] 的项目会自动嵌入 Office PIA 中的所有互操作类型。 发生此编译错误的原因是嵌入互操作类型功能仅适用于接口，而不适用于类。 有关 Office Pia 中接口和类的详细信息，请参阅[概述中 Office 主互操作程序集类和接口](http://go.microsoft.com/fwlink/?LinkId=189592)。 有关 Office 项目中嵌入的互操作类型功能的详细信息，请参阅[设计和创建 Office 解决方案](../vsto/designing-and-creating-office-solutions.md)。
+ 默认情况下，面向 (../vsto/designing-and-creating-office-solutions.md)。
 
 ### <a name="references-to-office-classes-are-not-recognized"></a>无法识别对 Office 类的引用
  某些类名称，例如应用程序，如位于多个命名空间<xref:Microsoft.Office.Interop.Word>和<xref:System.Windows.Forms>。 出于此原因，**导入**/**使用**项目模板顶部的语句中包含简写的限定常数，例如：

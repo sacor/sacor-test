@@ -117,8 +117,8 @@ ms.workload:
 
  如需 Office Pia 中的事件介面的詳細資訊，請參閱[的 Office 主要 interop 組件中類別和介面概觀](/previous-versions/office/office-12//ms247299(v=office.12))。
 
-### <a name="cannot-reference-office-pia-classes-in-projects-that-target-the-includenetv40shortsharepointincludesnet-v40-short-mdmd-or-the-includenetv45vstoincludesnet-v45-mdmd"></a>無法參考 Office PIA 中類別專案目標[!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]或 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]
- 根據預設，在以 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 或 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] 為目標的專案中，不會編譯參考 Office PIA 中所定義類別的程式碼。 Pia 中的類別使用的命名慣例*objectname*類別，例如<xref:Microsoft.Office.Interop.Word.DocumentClass>和<xref:Microsoft.Office.Interop.Excel.WorkbookClass>。 例如，將不會編譯 Word VSTO 增益集專案中的下列程式碼。
+### <a name="cannot-reference-office-pia-classes-in-projects-that-target-the-includenetv40shortsharepointincludesnet-v40-short-mdmd-or-the-includenetv45vstoincludesnet-v45-mdmd"></a>無法參考 Office PIA 中類別專案目標
+ 根據預設，在以  為目標的專案中，不會編譯參考 Office PIA 中所定義類別的程式碼。 Pia 中的類別使用的命名慣例*objectname*類別，例如<xref:Microsoft.Office.Interop.Word.DocumentClass>和<xref:Microsoft.Office.Interop.Excel.WorkbookClass>。 例如，將不會編譯 Word VSTO 增益集專案中的下列程式碼。
 
 ```vb
 Dim document As Word.DocumentClass = Globals.ThisAddIn.Application.ActiveDocument
@@ -144,7 +144,7 @@ Dim document As Word.Document = Globals.ThisAddIn.Application.ActiveDocument
 Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
 ```
 
- 根據預設，以 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 或 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] 為目標的專案會自動內嵌 Office PIA 的所有 Interop 類型。 之所以會發生這個編譯錯誤，是因為內嵌的 Interop 類型功能僅適用於介面，而不適用於類別。 如需 Office Pia 中介面和類別的詳細資訊，請參閱[的 Office 主要 interop 組件中類別和介面概觀](http://go.microsoft.com/fwlink/?LinkId=189592)。 如需 Office 專案中的內嵌 interop 類型功能的詳細資訊，請參閱[設計和建立 Office 方案](../vsto/designing-and-creating-office-solutions.md)。
+ 根據預設，以 (../vsto/designing-and-creating-office-solutions.md)。
 
 ### <a name="references-to-office-classes-are-not-recognized"></a>無法辨識 Office 類別的參考
  某些類別名稱，例如應用程式，例如是多個命名空間中<xref:Microsoft.Office.Interop.Word>和<xref:System.Windows.Forms>。 基於這個理由，**匯入**/**使用**頂端的專案範本的陳述式會包括縮寫的限定常數，例如：

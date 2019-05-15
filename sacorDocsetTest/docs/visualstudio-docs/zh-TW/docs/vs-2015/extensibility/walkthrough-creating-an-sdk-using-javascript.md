@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>逐步解說：使用 JavaScript 建立 SDK
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 本逐步解說將說明如何使用 JavaScript 來建立簡單的數學 SDK 作為 Visual Studio 擴充功能 (VSIX)。  本逐步解說分為下列部分：  
   

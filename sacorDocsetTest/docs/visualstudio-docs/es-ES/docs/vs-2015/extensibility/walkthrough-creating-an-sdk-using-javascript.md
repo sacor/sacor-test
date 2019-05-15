@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>Tutorial: Crear un SDK con JavaScript
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 En este tutorial se enseña cómo usar JavaScript para crear un simple cálculo matemático SDK como una extensión de Visual Studio (VSIX).  El tutorial está dividido en estas partes:  
   

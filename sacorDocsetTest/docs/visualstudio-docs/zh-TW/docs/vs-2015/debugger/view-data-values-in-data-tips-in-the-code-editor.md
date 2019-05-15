@@ -23,11 +23,11 @@ ms.author: mikejo
 manager: jillfra
 ---
 # <a name="view-data-values-in-data-tips--in-the-code-editor"></a>在程式碼編輯器的資料提示中檢視資料值
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 資料提示方塊提供方便的方法，讓您在偵錯期間檢視程式中的變數資訊。 資料提示方塊只能夠在中斷模式中運作，並且只能使用目前執行範圍內的變數。  
   
- 在  [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)]，DataTips 可以固定至原始程式檔，在特定位置，或它們可以漂浮在所有[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]windows。  
+ 在  windows。  
   
 ### <a name="to-display-a-datatip-in-break-mode-only"></a>若要顯示資料提示方塊 (僅限在中斷模式中)  
   

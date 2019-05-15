@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>Пошаговое руководство. Создание пакета SDK с помощью JavaScript
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 В этом пошаговом руководстве объясняется, как использовать JavaScript для создания простых математических расчетов SDK как Visual Studio Extension (VSIX).  Пошаговое руководство состоит из следующих частей:  
   

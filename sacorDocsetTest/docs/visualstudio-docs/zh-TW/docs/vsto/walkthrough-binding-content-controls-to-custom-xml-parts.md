@@ -21,7 +21,7 @@ ms.workload:
 # <a name="walkthrough-bind-content-controls-to-custom-xml-parts"></a>逐步解說：內容控制項繫結至自訂 XML 組件
   本逐步解說示範如何將 Word 之文件層級自訂中的內容控制項繫結至文件中所儲存的 XML 資料。
 
- [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]
+ 
 
  Word 可讓您儲存 XML 資料，名為*自訂 XML 組件*，文件中。 將內容控制項繫結至自訂 XML 組件中的項目，即可控制這項資料的顯示。 本逐步解說中的範例文件會顯示自訂 XML 組件中所儲存的員工資訊。 開啟文件時，內容控制項會顯示 XML 項目的值。 您對內容控制項中文字進行的任何變更都會儲存在自訂 XML 組件中。
 
@@ -39,12 +39,12 @@ ms.workload:
 
 - 將 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> 繫結至 XML 結構描述中所定義的一組值。
 
-  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
+  
 
 ## <a name="prerequisites"></a>必要條件
  您需要下列元件才能完成此逐步解說：
 
-- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- 
 
 - Microsoft Word
 
@@ -55,14 +55,14 @@ ms.workload:
 
 1. 建立 Word 文件專案名稱**EmployeeControls**。 建立方案的新文件。 如需詳細資訊，請參閱[如何：在 Visual Studio 中建立 Office 專案](../vsto/how-to-create-office-projects-in-visual-studio.md)。
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 在設計工具中開啟新的 Word 文件，並將**EmployeeControls**專案加入**方案總管 中**。
+      在設計工具中開啟新的 Word 文件，並將**EmployeeControls**專案加入**方案總管 中**。
 
 ## <a name="add-content-controls-to-the-document"></a>將內容控制項加入文件
  建立包含三種不同類型之內容控制項的資料表，使用者可以使用這些內容控制項來檢視或編輯員工相關資訊。
 
 ### <a name="to-add-content-controls-to-the-document"></a>將內容控制項新增至文件
 
-1. 在 Word 文件中裝載[!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]設計工具中的，在功能區中，選擇**插入** 索引標籤。
+1. 在 Word 文件中裝載設計工具中的，在功能區中，選擇**插入** 索引標籤。
 
 2. 在 **資料表**群組中，選擇**資料表**，並插入具有 2 個資料行和 3 個資料列的資料表。
 
@@ -180,7 +180,7 @@ ms.workload:
 ## <a name="attach-the-xml-schema-to-the-document"></a>將 XML 結構描述附加至文件
  您必須將 XML 結構描述附加至文件，以將 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> 繫結至 `title` 項目的有效值。
 
-### <a name="to-attach-the-xml-schema-to-the-document--includeword15shortvstoincludesword-15-short-mdmd"></a>若要將 XML 結構描述附加至文件 ( [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)])
+### <a name="to-attach-the-xml-schema-to-the-document--includeword15shortvstoincludesword-15-short-mdmd"></a>若要將 XML 結構描述附加至文件 ( )
 
 1. 啟用**EmployeeControls.docx**設計工具中。
 

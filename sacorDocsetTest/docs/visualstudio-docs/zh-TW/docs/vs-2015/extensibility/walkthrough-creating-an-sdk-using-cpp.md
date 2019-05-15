@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-c"></a>逐步解說：使用 C++ 建立 SDK
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 本逐步解說示範如何建立原生C++數學程式庫 SDK，封裝 SDK 作為 Visual Studio 擴充功能 (VSIX)，並接著使用它來建立應用程式。 本逐步解說分為下列步驟：  
   
@@ -169,7 +169,7 @@ manager: jillfra
   
      正確的結果會出現。  
   
-    本逐步解說示範如何建立和使用擴充功能 SDK，來呼叫[!INCLUDE[wrt](../includes/wrt-md.md)]程式庫和非[!INCLUDE[wrt](../includes/wrt-md.md)]程式庫。  
+    本逐步解說示範如何建立和使用擴充功能 SDK，來呼叫程式庫。  
   
 ## <a name="next-steps"></a>後續步驟  
   

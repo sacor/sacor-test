@@ -11,9 +11,9 @@ ms.author: mblome
 manager: jillfra
 ---
 # <a name="using-rule-sets-to-specify-the-c-rules-to-run"></a>使用规则集指定要运行的 C++ 规则
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-在中[!INCLUDE[vsPreShort](../includes/vspreshort-md.md)]并[!INCLUDE[vsUltShort](../includes/vsultshort-md.md)]，可以创建和修改自定义*规则集*以满足与代码分析相关联的特定项目需求。 若要创建自定义 C++ 规则集，必须在 Visual Studio IDE 中打开 C/C++ 项目。 然后，在规则集编辑器中打开某一标准规则集，再添加或移除特定的规则，并且可更改当代码分析确定违反规则时所发生的操作。  
+
+在中，可以创建和修改自定义*规则集*以满足与代码分析相关联的特定项目需求。 若要创建自定义 C++ 规则集，必须在 Visual Studio IDE 中打开 C/C++ 项目。 然后，在规则集编辑器中打开某一标准规则集，再添加或移除特定的规则，并且可更改当代码分析确定违反规则时所发生的操作。  
   
  若要创建新的自定义规则集，通过使用新的文件名保存。 自定义规则集自动分配给项目。  
   

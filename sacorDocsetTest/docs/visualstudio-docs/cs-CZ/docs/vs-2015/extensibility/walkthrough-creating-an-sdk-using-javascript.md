@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>Návod: Vytvoření sady SDK pomocí jazyka JavaScript
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 Tento návod se naučíte vytvořit jednoduché matematické sadu SDK jako Visual Studio Extension (VSIX) pomocí jazyka JavaScript.  Návod je rozdělen na tyto části:  
   

@@ -11,9 +11,9 @@ ms.author: mblome
 manager: jillfra
 ---
 # <a name="using-rule-sets-to-specify-the-c-rules-to-run"></a>使用規則集指定要執行的 C++ 規則
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-在 [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)]並[!INCLUDE[vsUltShort](../includes/vsultshort-md.md)]，您可以建立和修改自訂*規則集*以符合程式碼分析與相關聯的特定專案需求。 若要建立自訂C++規則集，C /C++必須在 Visual Studio IDE 中開啟專案。 然後規則集編輯器中開啟的標準規則集，然後新增或移除特定規則及選擇性變更 程式碼分析會判斷已違反規則時所發生的動作之後。  
+
+在 ，您可以建立和修改自訂*規則集*以符合程式碼分析與相關聯的特定專案需求。 若要建立自訂C++規則集，C /C++必須在 Visual Studio IDE 中開啟專案。 然後規則集編輯器中開啟的標準規則集，然後新增或移除特定規則及選擇性變更 程式碼分析會判斷已違反規則時所發生的動作之後。  
   
  若要建立新的自訂規則集，您將使用新的檔案名稱儲存。 自訂規則集會自動指派至專案。  
   

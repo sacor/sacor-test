@@ -47,7 +47,7 @@ dev_langs:
 8. 中**組態** 欄中，確認**SimpleMath**資料列設定為**版本**，然後選擇**關閉**按鈕以接受變更。
 
    > [!IMPORTANT]
-   > SimpleMath 元件 SDK 包含只有一個組態。 此設定必須是發行組建，或使用元件的應用程式，將不會傳遞認證[!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)]。
+   > SimpleMath 元件 SDK 包含只有一個組態。 此設定必須是發行組建，或使用元件的應用程式，將不會傳遞認證。
 
 9. 在 **方案總管**，開啟捷徑功能表**SimpleMath**專案節點，然後選擇**建置**。
 

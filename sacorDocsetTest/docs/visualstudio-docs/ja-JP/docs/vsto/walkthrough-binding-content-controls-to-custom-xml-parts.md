@@ -21,7 +21,7 @@ ms.workload:
 # <a name="walkthrough-bind-content-controls-to-custom-xml-parts"></a>チュートリアル: カスタム XML 部分へのコンテンツ コントロールをバインドします。
   このチュートリアルでは、Word のドキュメント レベルのカスタマイズで、コンテンツ コントロールを同じ文書内の XML データにバインドする方法を説明します。
 
- [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]
+ 
 
  Word では、という名前の XML データを格納することができます*カスタム XML 部分*ドキュメントにします。 このデータの表示は、カスタム XML 部分の要素にコンテンツ コントロールをバインドすることによって制御できます。 このチュートリアルで例として示す文書のカスタム XML 部分には、従業員情報が格納されています。 この文書を開くと、XML 要素の値がコンテンツ コントロールに表示されます。 コンテンツ コントロール内のテキストに加えた変更は、カスタム XML 部分に保存されます。
 
@@ -39,12 +39,12 @@ ms.workload:
 
 - <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> を XML スキーマに定義された値にバインドする。
 
-  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
+  
 
 ## <a name="prerequisites"></a>必須コンポーネント
  このチュートリアルを実行するには、次のコンポーネントが必要です。
 
-- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- 
 
 - Microsoft Word。
 
@@ -55,14 +55,14 @@ ms.workload:
 
 1. 名前の Word 文書プロジェクトを作成**EmployeeControls**します。 ソリューションの新しい文書を作成します。 詳細については、「[方法 :Visual Studio で Office プロジェクトを作成する方法](../vsto/how-to-create-office-projects-in-visual-studio.md)」を参照してください。
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] デザイナーで新しい Word 文書を開いてを追加します、 **EmployeeControls**プロジェクトを**ソリューション エクスプ ローラー**します。
+      デザイナーで新しい Word 文書を開いてを追加します、 **EmployeeControls**プロジェクトを**ソリューション エクスプ ローラー**します。
 
 ## <a name="add-content-controls-to-the-document"></a>コンテンツ コントロールをドキュメントに追加します。
  ユーザーが従業員に関する情報を表示または編集できる 3 種類のコンテンツ コントロールが含まれるテーブルを作成します。
 
 ### <a name="to-add-content-controls-to-the-document"></a>文書にコンテンツ コントロールを追加するには
 
-1. ホストされている Word 文書で、[!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]デザイナーのリボンで、選択、**挿入**タブ。
+1. ホストされている Word 文書で、デザイナーのリボンで、選択、**挿入**タブ。
 
 2. **テーブル**グループで、**テーブル**、2 つの列と 3 つの行を含むテーブルを挿入します。
 
@@ -180,7 +180,7 @@ ms.workload:
 ## <a name="attach-the-xml-schema-to-the-document"></a>XML スキーマを文書に添付します。
  <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> を `title` 要素の有効な値にバインドするためには、XML スキーマを文書に添付する必要があります。
 
-### <a name="to-attach-the-xml-schema-to-the-document--includeword15shortvstoincludesword-15-short-mdmd"></a>XML スキーマをドキュメントにアタッチする ( [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)])
+### <a name="to-attach-the-xml-schema-to-the-document--includeword15shortvstoincludesword-15-short-mdmd"></a>XML スキーマをドキュメントにアタッチする ( )
 
 1. アクティブ化**EmployeeControls.docx**デザイナー。
 

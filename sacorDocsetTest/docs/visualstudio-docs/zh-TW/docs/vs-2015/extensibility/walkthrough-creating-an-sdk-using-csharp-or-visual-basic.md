@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-c-or-visual-basic"></a>逐步解說：使用 C# 或 Visual Basic 建立 SDK
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 在本逐步解說中，您將了解如何使用 Visual C# 來建立簡單的數學程式庫 SDK，然後再封裝 SDK 作為 Visual Studio 擴充功能 (VSIX)。 您會完成下列程序：  
   
@@ -47,7 +47,7 @@ manager: jillfra
 8. 中**組態** 欄中，確認**SimpleMath**資料列設定為**版本**，然後選擇**關閉**按鈕以接受變更。  
   
     > [!IMPORTANT]
-    > SimpleMath 元件 SDK 包含只有一個組態。 此設定必須是發行組建，或使用元件的應用程式，將不會傳遞認證[!INCLUDE[win8_appstore_long](../includes/win8-appstore-long-md.md)]。  
+    > SimpleMath 元件 SDK 包含只有一個組態。 此設定必須是發行組建，或使用元件的應用程式，將不會傳遞認證。  
   
 9. 在 **方案總管**，開啟捷徑功能表**SimpleMath**專案節點，然後選擇**建置**。  
   

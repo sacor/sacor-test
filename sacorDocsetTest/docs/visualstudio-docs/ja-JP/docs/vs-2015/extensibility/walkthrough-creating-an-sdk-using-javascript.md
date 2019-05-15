@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>チュートリアル: JavaScript を使用して SDK を作成する
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 このチュートリアルでは、JavaScript を使用して単純な算術 SDK と Visual Studio Extension (VSIX) を作成する方法について説明します。  このチュートリアルは、これらの部分に分かれています。  
   

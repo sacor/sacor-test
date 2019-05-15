@@ -10,7 +10,7 @@ ms.author: gregvanl
 manager: jillfra
 ---
 # <a name="walkthrough-creating-an-sdk-using-c"></a>演练：使用 C++ 创建 SDK
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+
 
 本演练演示如何创建一个本机C++数学库 SDK，打包 SDK 作为 Visual Studio 扩展 (VSIX)，并使用它创建的应用程序。 本演练分为以下步骤：  
   
@@ -169,7 +169,7 @@ manager: jillfra
   
      将显示正确的结果。  
   
-    本演练演示了如何创建和使用扩展 SDK 来调入[!INCLUDE[wrt](../includes/wrt-md.md)]库和非[!INCLUDE[wrt](../includes/wrt-md.md)]库。  
+    本演练演示了如何创建和使用扩展 SDK 来调入库。  
   
 ## <a name="next-steps"></a>后续步骤  
   
