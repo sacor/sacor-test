@@ -73,17 +73,17 @@ ms.locfileid: '65966432'
 
    <span data-ttu-id="6af7b-145">Przed rozpoczęciem należy zebrać następujące informacje:</span><span class="sxs-lookup"><span data-stu-id="6af7b-145">Przed rozpoczęciem należy zebrać następujące informacje:</span></span>
 
-   <span data-ttu-id="6af7b-146">:heavy_check_mark:  Nazwa bazy danych, nazwa serwera baz danych, nazwa użytkownika i hasło magazynu Azure SQL Data Warehouse.</span><span class="sxs-lookup"><span data-stu-id="6af7b-146">:heavy_check_mark:  Nazwa bazy danych, nazwa serwera baz danych, nazwa użytkownika i hasło magazynu Azure SQL Data Warehouse.</span></span>
+   <span data-ttu-id="6af7b-146"> :heavy_check_mark:  Nazwa bazy danych, nazwa serwera baz danych, nazwa użytkownika i hasło magazynu Azure SQL Data Warehouse.</span><span class="sxs-lookup"><span data-stu-id="6af7b-146">:heavy_check_mark:  Nazwa bazy danych, nazwa serwera baz danych, nazwa użytkownika i hasło magazynu Azure SQL Data Warehouse.</span></span>
 
-   <span data-ttu-id="6af7b-147">:heavy_check_mark:  Klucz dostępu konta usługi Blob Storage.</span><span class="sxs-lookup"><span data-stu-id="6af7b-147">:heavy_check_mark:  Klucz dostępu konta usługi Blob Storage.</span></span>
+   <span data-ttu-id="6af7b-147"> :heavy_check_mark:  Klucz dostępu konta usługi Blob Storage.</span><span class="sxs-lookup"><span data-stu-id="6af7b-147">:heavy_check_mark:  Klucz dostępu konta usługi Blob Storage.</span></span>
 
-   <span data-ttu-id="6af7b-148">:heavy_check_mark:  Nazwa konta magazynu usługi Data Lake Storage Gen2.</span><span class="sxs-lookup"><span data-stu-id="6af7b-148">:heavy_check_mark:  Nazwa konta magazynu usługi Data Lake Storage Gen2.</span></span>
+   <span data-ttu-id="6af7b-148"> :heavy_check_mark:  Nazwa konta magazynu usługi Data Lake Storage Gen2.</span><span class="sxs-lookup"><span data-stu-id="6af7b-148">:heavy_check_mark:  Nazwa konta magazynu usługi Data Lake Storage Gen2.</span></span>
 
-   <span data-ttu-id="6af7b-149">:heavy_check_mark:  Identyfikator dzierżawy subskrypcji.</span><span class="sxs-lookup"><span data-stu-id="6af7b-149">:heavy_check_mark:  Identyfikator dzierżawy subskrypcji.</span></span>
+   <span data-ttu-id="6af7b-149"> :heavy_check_mark:  Identyfikator dzierżawy subskrypcji.</span><span class="sxs-lookup"><span data-stu-id="6af7b-149">:heavy_check_mark:  Identyfikator dzierżawy subskrypcji.</span></span>
 
-   <span data-ttu-id="6af7b-150">:heavy_check_mark:  Identyfikator aplikacji, która została zarejestrowana w usłudze Azure Active Directory (Azure AD).</span><span class="sxs-lookup"><span data-stu-id="6af7b-150">:heavy_check_mark:  Identyfikator aplikacji, która została zarejestrowana w usłudze Azure Active Directory (Azure AD).</span></span>
+   <span data-ttu-id="6af7b-150"> :heavy_check_mark:  Identyfikator aplikacji, która została zarejestrowana w usłudze Azure Active Directory (Azure AD).</span><span class="sxs-lookup"><span data-stu-id="6af7b-150">:heavy_check_mark:  Identyfikator aplikacji, która została zarejestrowana w usłudze Azure Active Directory (Azure AD).</span></span>
 
-   <span data-ttu-id="6af7b-151">:heavy_check_mark:  Klucz uwierzytelniania aplikacji, która została zarejestrowana w usłudze Azure AD.</span><span class="sxs-lookup"><span data-stu-id="6af7b-151">:heavy_check_mark:  Klucz uwierzytelniania aplikacji, która została zarejestrowana w usłudze Azure AD.</span></span>
+   <span data-ttu-id="6af7b-151"> :heavy_check_mark:  Klucz uwierzytelniania aplikacji, która została zarejestrowana w usłudze Azure AD.</span><span class="sxs-lookup"><span data-stu-id="6af7b-151">:heavy_check_mark:  Klucz uwierzytelniania aplikacji, która została zarejestrowana w usłudze Azure AD.</span></span>
 
 ## <a name="create-an-azure-databricks-service"></a><span data-ttu-id="6af7b-152">Tworzenie usługi Azure Databricks</span><span class="sxs-lookup"><span data-stu-id="6af7b-152">Tworzenie usługi Azure Databricks</span></span>
 
