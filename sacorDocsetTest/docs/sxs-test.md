@@ -45,6 +45,4 @@ MSIX proporciona numerosas ventajas en la administración del ciclo de vida de l
 #### <a name="updating-your-existing-configuration-manager-apps-to-msix-sept-2018"></a>Actualizar las aplicaciones existentes de Configuration Manager a MSIX (septiembre de 2018)
 MSIX simplifica y moderniza la implementación de aplicaciones. Aporta una implementación más rápida, confiable y libre de problemas para su empresa. Conozca los pros y los contras de actualizar las aplicaciones existentes del Administrador de configuración de System Center a MSIX y aprenda cómo integrar MSIX con el Administrador de configuración.
     :::column-end:::
-
-
 :::row-end:::

@@ -38,6 +38,7 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/sacorDocsetTest/breadcrumb/toc.json",
+      "bilingual_type": "hover over",
       "extendBreadcrumb": true,
       "feedback_system": "None",
       "test": "test"
