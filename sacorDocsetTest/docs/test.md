@@ -405,17 +405,17 @@ The following features were discussed in this document. Follow the links to lear
 
 <!-- images -->
 
-[0]: ../_images/vdc/networking-redundant-equipment.png "Examples of component overlap"
-[1]: ../_images/vdc/networking-vdc-high-level.png "High-level example of hub and spoke in a virtual datacenter implementation"
-[2]: ../_images/vdc/networking-hub-spokes-cluster.png "Cluster of hubs and spokes"
-[3]: ../_images/vdc/networking-spoke-to-spoke.png "Spoke-to-spoke"
-[4]: ../_images/vdc/networking-vdc-block-level-diagram.png "Block level diagram of a virtual datacenter implementation"
-[5]: ../_images/vdc/networking-users-groups-subscriptions.png "Users, groups, subscriptions, and projects"
-[6]: ../_images/vdc/networking-infrastructure-high-level.png "High-level infrastructure diagram"
-[7]: ../_images/vdc/networking-high-level-perimeter-networks.png "High-level infrastructure diagram"
-[8]: ../_images/vdc/networking-vnet-peering-perimeter-networks.png "VNet Peering and perimeter networks"
-[9]: ../_images/vdc/networking-high-level-diagram-monitoring.png "High-level diagram for monitoring"
-[10]: ../_images/vdc/networking-high-level-workloads.png "High-level diagram for Workload"
+[0]: ./_images/vdc/networking-redundant-equipment.png "Examples of component overlap"
+[1]: ./_images/vdc/networking-vdc-high-level.png "High-level example of hub and spoke in a virtual datacenter implementation"
+[2]: ./_images/vdc/networking-hub-spokes-cluster.png "Cluster of hubs and spokes"
+[3]: ./_images/vdc/networking-spoke-to-spoke.png "Spoke-to-spoke"
+[4]: ./_images/vdc/networking-vdc-block-level-diagram.png "Block level diagram of a virtual datacenter implementation"
+[5]: ./_images/vdc/networking-users-groups-subscriptions.png "Users, groups, subscriptions, and projects"
+[6]: ./_images/vdc/networking-infrastructure-high-level.png "High-level infrastructure diagram"
+[7]: ./_images/vdc/networking-high-level-perimeter-networks.png "High-level infrastructure diagram"
+[8]: ./_images/vdc/networking-vnet-peering-perimeter-networks.png "VNet Peering and perimeter networks"
+[9]: ./_images/vdc/networking-high-level-diagram-monitoring.png "High-level diagram for monitoring"
+[10]: ./_images/vdc/networking-high-level-workloads.png "High-level diagram for Workload"
 
 <!-- links -->
 
