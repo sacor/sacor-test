@@ -97,6 +97,7 @@ recall_score_macro|La coincidencia es el porcentaje de elementos de una clase de
 recall_score_micro|La coincidencia es el porcentaje de elementos de una clase determinada que están correctamente etiquetados. Micro se calcula de forma global mediante el recuento del total de verdaderos positivos, falsos negativos y falsos positivos.|[Cálculo](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html)|average="micro"|
 recall_score_weighted|La coincidencia es el porcentaje de elementos de una clase determinada que están correctamente etiquetados. Weighted es la media aritmética de la recuperación para cada clase, ponderada por el número de instancias verdaderas en cada clase.|[Cálculo](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html)|average="weighted"|
 weighted_accuracy|La precisión ponderada es la precisión donde el peso asignado a cada ejemplo es igual a la proporción de instancias verdaderas en la clase real de ese ejemplo.|[Cálculo](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html)|sample_weight es un vector igual a la proporción de esa clase para cada elemento en el destino|
+
 <a name="confusion-matrix"></a>
 ### <a name="confusion-matrix"></a>Matriz de confusión
 #### <a name="what-is-a-confusion-matrix"></a>¿Qué es una matriz de confusión?
