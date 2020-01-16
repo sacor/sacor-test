@@ -22,5 +22,5 @@ ms.locfileid: "75645164"
 
 <span data-ttu-id="c358f-106">Los tamaños marcados con un asterisco están actualmente en versión preliminar.</span><span class="sxs-lookup"><span data-stu-id="c358f-106">Sizes denoted with an asterisk are currently in preview.</span></span> <span data-ttu-id="c358f-107">Consulte nuestras [preguntas más frecuentes](faq-for-disks.md#new-disk-sizes-managed-and-unmanaged) para obtener información sobre en qué regiones están disponibles.</span><span class="sxs-lookup"><span data-stu-id="c358f-107">See our [FAQ](faq-for-disks.md#new-disk-sizes-managed-and-unmanaged) to learn what regions they are available in.</span></span>
 
-[!INCLUDE [azure-storage-limits-vm-disks-managed](/includes/azure-storage-limits-vm-disks-managed.md)]
+[!INCLUDE [azure-storage-limits-vm-disks-managed](../includes/azure-storage-limits-vm-disks-managed.md)]
 
