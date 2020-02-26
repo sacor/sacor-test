@@ -1,98 +1,38 @@
 ---
-title: Install and use apps with dashboards and reports in Power BI
-description: 'Find, install, and use apps in the Power BI service.'
-author: mihart
-ms.reviewer: lukaszp
-ms.service: powerbi
-ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 10/31/2019
-ms.author: mihart
-LocalizationGroup: Share your work
+title: include file
+description: include file
+services: storage
+author: tamram
+ms.service: storage
+ms.topic: include
+ms.date: 05/06/2019
+ms.author: tamram
+ms.custom: include file
 ---
-# <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a><span data-ttu-id="3de53-103">Install and use apps with dashboards and reports in Power BI</span><span class="sxs-lookup"><span data-stu-id="3de53-103">Install and use apps with dashboards and reports in Power BI</span></span>
 
-<span data-ttu-id="3de53-104">Now that you have a [basic understanding of apps](end-user-apps.md), let's learn how to open and interact with apps.</span><span class="sxs-lookup"><span data-stu-id="3de53-104">Now that you have a [basic understanding of apps](end-user-apps.md), let's learn how to open and interact with apps.</span></span> 
+<span data-ttu-id="b8ac8-103">To create a general-purpose v2 storage account in the Azure portal, follow these steps:</span><span class="sxs-lookup"><span data-stu-id="b8ac8-103">To create a general-purpose v2 storage account in the Azure portal, follow these steps:</span></span>
 
-## <a name="ways-to-get-a-new-app"></a><span data-ttu-id="3de53-105">Ways to get a new app</span><span class="sxs-lookup"><span data-stu-id="3de53-105">Ways to get a new app</span></span>
-<span data-ttu-id="3de53-106">There are several ways to get a new app.</span><span class="sxs-lookup"><span data-stu-id="3de53-106">There are several ways to get a new app.</span></span> <span data-ttu-id="3de53-107">A report designer colleague can install the app automatically in your Power BI account, or send you a direct link to an app.</span><span class="sxs-lookup"><span data-stu-id="3de53-107">A report designer colleague can install the app automatically in your Power BI account, or send you a direct link to an app.</span></span> <span data-ttu-id="3de53-108">And, you can go to AppSource and search for apps available to you from app designers both inside and outside your company.</span><span class="sxs-lookup"><span data-stu-id="3de53-108">And, you can go to AppSource and search for apps available to you from app designers both inside and outside your company.</span></span> 
+1. <span data-ttu-id="b8ac8-104">On the Azure portal menu, select **All services**.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-104">On the Azure portal menu, select **All services**.</span></span> <span data-ttu-id="b8ac8-105">In the list of resources, type **Storage Accounts**.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-105">In the list of resources, type **Storage Accounts**.</span></span> <span data-ttu-id="b8ac8-106">As you begin typing, the list filters based on your input.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-106">As you begin typing, the list filters based on your input.</span></span> <span data-ttu-id="b8ac8-107">Select **Storage Accounts**.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-107">Select **Storage Accounts**.</span></span>
+2. <span data-ttu-id="b8ac8-108">On the **Storage Accounts** window that appears, choose **Add**.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-108">On the **Storage Accounts** window that appears, choose **Add**.</span></span>
+3. <span data-ttu-id="b8ac8-109">Select the subscription in which to create the storage account.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-109">Select the subscription in which to create the storage account.</span></span>
+4. <span data-ttu-id="b8ac8-110">Under the **Resource group** field, select **Create new**.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-110">Under the **Resource group** field, select **Create new**.</span></span> <span data-ttu-id="b8ac8-111">Enter a name for your new resource group, as shown in the following image.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-111">Enter a name for your new resource group, as shown in the following image.</span></span>
 
-<span data-ttu-id="3de53-109">In Power BI on your mobile device, you can only install an app from a direct link, and not from AppSource.</span><span class="sxs-lookup"><span data-stu-id="3de53-109">In Power BI on your mobile device, you can only install an app from a direct link, and not from AppSource.</span></span> <span data-ttu-id="3de53-110">If the app designer installs the app automatically, you'll see it in your list of apps.</span><span class="sxs-lookup"><span data-stu-id="3de53-110">If the app designer installs the app automatically, you'll see it in your list of apps.</span></span>
+    ![Screenshot showing how to create a resource group in the portal](./media/storage-create-account-portal-include/create-resource-group-for-storage.png)
 
-## <a name="install-an-app-from-a-direct-link"></a><span data-ttu-id="3de53-111">Install an app from a direct link</span><span class="sxs-lookup"><span data-stu-id="3de53-111">Install an app from a direct link</span></span>
-<span data-ttu-id="3de53-112">The easiest way to install a new app yourself is to get a direct link, in email, from the app designer.</span><span class="sxs-lookup"><span data-stu-id="3de53-112">The easiest way to install a new app yourself is to get a direct link, in email, from the app designer.</span></span>  
+5. <span data-ttu-id="b8ac8-113">Next, enter a name for your storage account.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-113">Next, enter a name for your storage account.</span></span> <span data-ttu-id="b8ac8-114">The name you choose must be unique across Azure.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-114">The name you choose must be unique across Azure.</span></span> <span data-ttu-id="b8ac8-115">The name also must be between 3 and 24 characters in length, and can include numbers and lowercase letters only.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-115">The name also must be between 3 and 24 characters in length, and can include numbers and lowercase letters only.</span></span>
+6. <span data-ttu-id="b8ac8-116">Select a location for your storage account, or use the default location.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-116">Select a location for your storage account, or use the default location.</span></span>
+7. <span data-ttu-id="b8ac8-117">Leave these fields set to their default values:</span><span class="sxs-lookup"><span data-stu-id="b8ac8-117">Leave these fields set to their default values:</span></span>
 
-<span data-ttu-id="3de53-113">**On your computer**</span><span class="sxs-lookup"><span data-stu-id="3de53-113">**On your computer**</span></span> 
+   |<span data-ttu-id="b8ac8-118">Field</span><span class="sxs-lookup"><span data-stu-id="b8ac8-118">Field</span></span>  |<span data-ttu-id="b8ac8-119">Value</span><span class="sxs-lookup"><span data-stu-id="b8ac8-119">Value</span></span>  |
+   |---------|---------|
+   |<span data-ttu-id="b8ac8-120">Deployment model</span><span class="sxs-lookup"><span data-stu-id="b8ac8-120">Deployment model</span></span>     |<span data-ttu-id="b8ac8-121">Resource Manager</span><span class="sxs-lookup"><span data-stu-id="b8ac8-121">Resource Manager</span></span>         |
+   |<span data-ttu-id="b8ac8-122">Performance</span><span class="sxs-lookup"><span data-stu-id="b8ac8-122">Performance</span></span>     |<span data-ttu-id="b8ac8-123">Standard</span><span class="sxs-lookup"><span data-stu-id="b8ac8-123">Standard</span></span>         |
+   |<span data-ttu-id="b8ac8-124">Account kind</span><span class="sxs-lookup"><span data-stu-id="b8ac8-124">Account kind</span></span>     |<span data-ttu-id="b8ac8-125">StorageV2 (general-purpose v2)</span><span class="sxs-lookup"><span data-stu-id="b8ac8-125">StorageV2 (general-purpose v2)</span></span>         |
+   |<span data-ttu-id="b8ac8-126">Replication</span><span class="sxs-lookup"><span data-stu-id="b8ac8-126">Replication</span></span>     |<span data-ttu-id="b8ac8-127">Read-access geo-redundant storage (RA-GRS)</span><span class="sxs-lookup"><span data-stu-id="b8ac8-127">Read-access geo-redundant storage (RA-GRS)</span></span>         |
+   |<span data-ttu-id="b8ac8-128">Access tier</span><span class="sxs-lookup"><span data-stu-id="b8ac8-128">Access tier</span></span>     |<span data-ttu-id="b8ac8-129">Hot</span><span class="sxs-lookup"><span data-stu-id="b8ac8-129">Hot</span></span>         |
 
-<span data-ttu-id="3de53-114">When you select the link in email, the Power BI service ([https://powerbi.com](https://powerbi.com)) opens the app in your browser.</span><span class="sxs-lookup"><span data-stu-id="3de53-114">When you select the link in email, the Power BI service ([https://powerbi.com](https://powerbi.com)) opens the app in your browser.</span></span> 
+8. <span data-ttu-id="b8ac8-130">If you plan to use [Azure Data Lake Storage](https://azure.microsoft.com/services/storage/data-lake-storage/), choose the **Advanced** tab, and then set **Hierarchical namespace** to **Enabled**.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-130">If you plan to use [Azure Data Lake Storage](https://azure.microsoft.com/services/storage/data-lake-storage/), choose the **Advanced** tab, and then set **Hierarchical namespace** to **Enabled**.</span></span>
+9. <span data-ttu-id="b8ac8-131">Select **Review + Create** to review your storage account settings and create the account.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-131">Select **Review + Create** to review your storage account settings and create the account.</span></span>
+10. <span data-ttu-id="b8ac8-132">Select **Create**.</span><span class="sxs-lookup"><span data-stu-id="b8ac8-132">Select **Create**.</span></span>
 
-![App landing page in the Power BI service](./media/end-user-app-view/power-bi-app-from-link.png)
-
-<span data-ttu-id="3de53-116">**On your iOS or Android mobile device**</span><span class="sxs-lookup"><span data-stu-id="3de53-116">**On your iOS or Android mobile device**</span></span> 
-
-<span data-ttu-id="3de53-117">When you select the link in email on your mobile device, the app installs automatically and opens in the mobile app.</span><span class="sxs-lookup"><span data-stu-id="3de53-117">When you select the link in email on your mobile device, the app installs automatically and opens in the mobile app.</span></span> <span data-ttu-id="3de53-118">You may have to sign in first.</span><span class="sxs-lookup"><span data-stu-id="3de53-118">You may have to sign in first.</span></span> 
-
-![App content list on mobile device](./media/end-user-app-view/power-bi-ios.png)
-
-## <a name="get-the-app-from-microsoft-appsource"></a><span data-ttu-id="3de53-120">Get the app from Microsoft AppSource</span><span class="sxs-lookup"><span data-stu-id="3de53-120">Get the app from Microsoft AppSource</span></span>
-<span data-ttu-id="3de53-121">You can also find and install apps from Microsoft AppSource.</span><span class="sxs-lookup"><span data-stu-id="3de53-121">You can also find and install apps from Microsoft AppSource.</span></span> <span data-ttu-id="3de53-122">Only apps that you can access (i.e., the app author has given you or given everyone permission) are displayed.</span><span class="sxs-lookup"><span data-stu-id="3de53-122">Only apps that you can access (i.e., the app author has given you or given everyone permission) are displayed.</span></span>
-
-1. <span data-ttu-id="3de53-123">Select **Apps**  > **Get apps**.</span><span class="sxs-lookup"><span data-stu-id="3de53-123">Select **Apps**  > **Get apps**.</span></span> 
-   
-    ![The Get apps icon](./media/end-user-app-view/power-bi-get-app2.png)    
-2. <span data-ttu-id="3de53-125">In AppSource under **My organization**, you can search to narrow the results and find the app you're looking for.</span><span class="sxs-lookup"><span data-stu-id="3de53-125">In AppSource under **My organization**, you can search to narrow the results and find the app you're looking for.</span></span>
-   
-    ![In AppSource under My organization](./media/end-user-app-view/power-bi-opportunity-app.png)
-3. <span data-ttu-id="3de53-127">Select **Get it now** to add it to your Apps content list.</span><span class="sxs-lookup"><span data-stu-id="3de53-127">Select **Get it now** to add it to your Apps content list.</span></span> 
-
-## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a><span data-ttu-id="3de53-128">Get an app from the Microsoft AppSource website (https://appsource.microsoft.com)</span><span class="sxs-lookup"><span data-stu-id="3de53-128">Get an app from the Microsoft AppSource website (https://appsource.microsoft.com)</span></span>
-<span data-ttu-id="3de53-129">In this example, we'll open one of the Microsoft sample apps.</span><span class="sxs-lookup"><span data-stu-id="3de53-129">In this example, we'll open one of the Microsoft sample apps.</span></span> <span data-ttu-id="3de53-130">On AppSource you'll find apps for many of the services that you use to run your business.</span><span class="sxs-lookup"><span data-stu-id="3de53-130">On AppSource you'll find apps for many of the services that you use to run your business.</span></span>  <span data-ttu-id="3de53-131">Services such as Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo, and many more.</span><span class="sxs-lookup"><span data-stu-id="3de53-131">Services such as Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo, and many more.</span></span> <span data-ttu-id="3de53-132">To learn more, visit [Apps for services you use with Power BI](../service-connect-to-services.md).</span><span class="sxs-lookup"><span data-stu-id="3de53-132">To learn more, visit [Apps for services you use with Power BI](../service-connect-to-services.md).</span></span> 
-
-1. <span data-ttu-id="3de53-133">https://appsource.microsoft.com, and select **Power BI apps**.</span><span class="sxs-lookup"><span data-stu-id="3de53-133">https://appsource.microsoft.com, and select **Power BI apps**.</span></span>
-
-    ![<span data-ttu-id="3de53-134">AppSource website with Power BI apps selected</span><span class="sxs-lookup"><span data-stu-id="3de53-134">AppSource website with Power BI apps selected</span></span>  ](./media/end-user-apps/power-bi-appsource.png)
-
-
-2. <span data-ttu-id="3de53-135">Select **See all** to display the list of all Power BI apps currently available on AppSource.</span><span class="sxs-lookup"><span data-stu-id="3de53-135">Select **See all** to display the list of all Power BI apps currently available on AppSource.</span></span> <span data-ttu-id="3de53-136">Scroll or search for the app named **Microsoft Sample - Sales & Marketing**.</span><span class="sxs-lookup"><span data-stu-id="3de53-136">Scroll or search for the app named **Microsoft Sample - Sales & Marketing**.</span></span>
-
-    ![<span data-ttu-id="3de53-137">AppSource website with Power BI Sales & Marketing app highlighted</span><span class="sxs-lookup"><span data-stu-id="3de53-137">AppSource website with Power BI Sales & Marketing app highlighted</span></span>  ](./media/end-user-apps/power-bi-appsource-samples.png)
-
-3. <span data-ttu-id="3de53-138">Select **Get it now** and agree to the terms of use.</span><span class="sxs-lookup"><span data-stu-id="3de53-138">Select **Get it now** and agree to the terms of use.</span></span>
-
-    ![<span data-ttu-id="3de53-139">AppSource website terms of use</span><span class="sxs-lookup"><span data-stu-id="3de53-139">AppSource website terms of use</span></span> ](./media/end-user-apps/power-bi-permission.png)
-
-
-4. <span data-ttu-id="3de53-140">Confirm that you want to install this app.</span><span class="sxs-lookup"><span data-stu-id="3de53-140">Confirm that you want to install this app.</span></span>
-
-    ![<span data-ttu-id="3de53-141">Install this app?</span><span class="sxs-lookup"><span data-stu-id="3de53-141">Install this app?</span></span>  ](./media/end-user-apps/power-bi-app-install.png)
-
-5. <span data-ttu-id="3de53-142">The Power BI service will display a success message once the app is installed.</span><span class="sxs-lookup"><span data-stu-id="3de53-142">The Power BI service will display a success message once the app is installed.</span></span> <span data-ttu-id="3de53-143">Select **Go to app** to open the app.</span><span class="sxs-lookup"><span data-stu-id="3de53-143">Select **Go to app** to open the app.</span></span> <span data-ttu-id="3de53-144">Depending on how the designer created the app, either the app dashboard or app report will display.</span><span class="sxs-lookup"><span data-stu-id="3de53-144">Depending on how the designer created the app, either the app dashboard or app report will display.</span></span>
-
-    ![<span data-ttu-id="3de53-145">App successfully installed</span><span class="sxs-lookup"><span data-stu-id="3de53-145">App successfully installed</span></span> ](./media/end-user-apps/power-bi-app-ready.png)
-
-    <span data-ttu-id="3de53-146">You can also open the app directly from your app content list by selecting **Apps** and choosing **Sales & Marketing**.</span><span class="sxs-lookup"><span data-stu-id="3de53-146">You can also open the app directly from your app content list by selecting **Apps** and choosing **Sales & Marketing**.</span></span>
-
-    ![Apps in Power BI](./media/end-user-apps/power-bi-apps.png)
-
-
-6. <span data-ttu-id="3de53-148">Choose whether to explore or customize and share your new app.</span><span class="sxs-lookup"><span data-stu-id="3de53-148">Choose whether to explore or customize and share your new app.</span></span> <span data-ttu-id="3de53-149">Because we've selected a Microsoft sample app, let's start by exploring.</span><span class="sxs-lookup"><span data-stu-id="3de53-149">Because we've selected a Microsoft sample app, let's start by exploring.</span></span> 
-
-    ![Explore with sample data](./media/end-user-apps/power-bi-explore.png)
-
-7.  <span data-ttu-id="3de53-151">Your new app opens with a dashboard.</span><span class="sxs-lookup"><span data-stu-id="3de53-151">Your new app opens with a dashboard.</span></span> <span data-ttu-id="3de53-152">The app *designer* could've set the app to open to a report instead.</span><span class="sxs-lookup"><span data-stu-id="3de53-152">The app *designer* could've set the app to open to a report instead.</span></span>  
-
-    ![Explore with sample data](./media/end-user-apps/power-bi-new-app.png)
-
-
-
-
-## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a><span data-ttu-id="3de53-154">Interact with the dashboards and reports in the app</span><span class="sxs-lookup"><span data-stu-id="3de53-154">Interact with the dashboards and reports in the app</span></span>
-<span data-ttu-id="3de53-155">Take some time to explore the data in the dashboards and reports that make up the app.</span><span class="sxs-lookup"><span data-stu-id="3de53-155">Take some time to explore the data in the dashboards and reports that make up the app.</span></span> <span data-ttu-id="3de53-156">You have access to all of the standard Power BI interactions such as filtering, highlighting, sorting, and drilling down.</span><span class="sxs-lookup"><span data-stu-id="3de53-156">You have access to all of the standard Power BI interactions such as filtering, highlighting, sorting, and drilling down.</span></span>  <span data-ttu-id="3de53-157">Still a little confused by the difference between dashboards and reports?</span><span class="sxs-lookup"><span data-stu-id="3de53-157">Still a little confused by the difference between dashboards and reports?</span></span>  <span data-ttu-id="3de53-158">Read the [article about dashboards](end-user-dashboards.md) and the [article about reports](end-user-reports.md).</span><span class="sxs-lookup"><span data-stu-id="3de53-158">Read the [article about dashboards](end-user-dashboards.md) and the [article about reports](end-user-reports.md).</span></span>  
-
-
-
-
-## <a name="next-steps"></a><span data-ttu-id="3de53-159">Next steps</span><span class="sxs-lookup"><span data-stu-id="3de53-159">Next steps</span></span>
-* [<span data-ttu-id="3de53-160">Back to the apps overview</span><span class="sxs-lookup"><span data-stu-id="3de53-160">Back to the apps overview</span></span>](end-user-apps.md)
-* [<span data-ttu-id="3de53-161">View a Power BI report</span><span class="sxs-lookup"><span data-stu-id="3de53-161">View a Power BI report</span></span>](end-user-report-open.md)
-* [<span data-ttu-id="3de53-162">Other ways content is shared with you</span><span class="sxs-lookup"><span data-stu-id="3de53-162">Other ways content is shared with you</span></span>](end-user-shared-with-me.md)
+<span data-ttu-id="b8ac8-133">For more information about types of storage accounts and other storage account settings, see [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview).</span><span class="sxs-lookup"><span data-stu-id="b8ac8-133">For more information about types of storage accounts and other storage account settings, see [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview).</span></span> <span data-ttu-id="b8ac8-134">For more information on resource groups, see [Azure Resource Manager overview](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).</span><span class="sxs-lookup"><span data-stu-id="b8ac8-134">For more information on resource groups, see [Azure Resource Manager overview](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).</span></span> 
